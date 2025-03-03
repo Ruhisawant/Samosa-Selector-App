@@ -16,11 +16,11 @@ const App = () => {
   const buyPartyPack = () => {
     if (count >= 100) {
       setMultiplier(multiplier * 5);
-      setCount(count - 10);
+      setCount(count - 100);
     }
   }
   const buyFullFeast = () => {
-    if (count >= 10) {
+    if (count >= 1000) {
       setMultiplier(multiplier * 10);
       setCount(count - 1000);
     }
@@ -31,7 +31,7 @@ const App = () => {
       <div className='header'>
         <h1>Samosa Selector</h1>
         <h2>Count: {count}</h2>
-        <img className='samosa' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOs_eL2XrfmvC9Kx_5-PuIh5LQAdBD47B_A&s' alt='samosa-img' onClick={updateCount}/>
+        <img className='samosa' src='/samosa.webp' onClick={updateCount}/>
       </div>
 
       <div className='container'>

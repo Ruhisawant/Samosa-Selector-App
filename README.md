@@ -1,12 +1,34 @@
-# React + Vite
+# Samosa Selector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Samosa Selector is a fun clicker game where users collect samosas and upgrade their multiplier to increase their samosa count per click.
 
-Currently, two official plugins are available:
+## Features
+- Click the samosa image to increase your count.
+- Upgrade your click power by purchasing upgrades with collected samosas.
+- Three upgrade options:
+  - **Double Stuffed (👯‍♀️)**: Doubles your click power for 10 samosas.
+  - **Party Pack (🎉)**: Multiplies click power by 5 for 100 samosas.
+  - **Full Feast (👩🏽‍🍳)**: Multiplies click power by 10 for 1000 samosas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Ruhisawant/Samosa-Selector-App.git
+   cd samosa-selector
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- JavaScript (ES6+)
+- CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is open-source and available under the [MIT License](LICENSE).
