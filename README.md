@@ -11,7 +11,7 @@ Samosa Selector is a fun clicker game where users collect samosas and upgrade th
   - **Full Feast (👩🏽‍🍳)**: Multiplies click power by 10 for 1000 samosas.
 
 ## Preview
-<img src="./public/preview.gif" alt="Samosa Selector Preview" width="700"/>
+<img src="./public/preview.gif" alt="Samosa Selector Preview" width="850"/>
 
 ## Installation
 1. Clone the repository:
