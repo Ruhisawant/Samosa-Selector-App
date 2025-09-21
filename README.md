@@ -10,20 +10,23 @@ Samosa Selector is a fun clicker game where users collect samosas and upgrade th
   - **Party Pack (🎉)**: Multiplies click power by 5 for 100 samosas.
   - **Full Feast (👩🏽‍🍳)**: Multiplies click power by 10 for 1000 samosas.
 
+## Preview
+<img src="./public/preview.gif" alt="Samosa Selector Preview" width="500"/>
+
 ## Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/Ruhisawant/Samosa-Selector-App.git
-   cd samosa-selector
-   ```
+	```sh
+	git clone https://github.com/Ruhisawant/Samosa-Selector-App.git
+	cd samosa-selector
+	```
 2. Install dependencies:
-   ```sh
-   npm install
-   ```
+	```sh
+	npm install
+	```
 3. Start the development server:
-   ```sh
-   npm start
-   ```
+	```sh
+	npm start
+	```
 
 ## Technologies Used
 - React
